@@ -1,0 +1,83 @@
+.page-footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.footer-first-container {
+    margin-right: 120px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.main-title-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #f4f4fd;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-title-footer,
+.footer-text {
+    box-sizing: border-box;
+    max-width: 264px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    margin-top: 16px;
+}
+
+.footer-sm {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-sm-icon-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.footer-sm-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 20px;
+    transition: background-color 250ms ease;
+}
+
+.footer-sm-icon {
+    fill: #f4f4fd;
+}
+
+.footer-sm-link:hover,
+.footer-sm-link:focus {
+    background-color: #31d0aa;
+}
+
