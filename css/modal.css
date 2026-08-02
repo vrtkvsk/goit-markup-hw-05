@@ -19,11 +19,11 @@
     transition: opacity 250ms ease-in-out; */
 }
 
-/* .modal-overlay .is-open {
+.modal-overlay .is-open {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-} */
+}
 
 .overlay-modal-box {
     background-color: #fcfcfc;
@@ -54,6 +54,8 @@
     padding: 8px;
     background-color: #e7e9fc;
     cursor: pointer;
+    width: 24px;
+    height: 24px;
 
     display: flex;
     justify-content: center;
@@ -83,6 +85,10 @@
 }
 
 .input-wrapper {
+    margin-bottom: 8px;
+}
+
+.input-comment-wrapper {
     margin-bottom: 16px;
 }
 
@@ -209,7 +215,7 @@
 .send-button {
     background-color: #4d5ae5;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
