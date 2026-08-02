@@ -11,12 +11,13 @@
 }
 
 .footer-first-container {
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 
 .footer-container {
     display: flex;
-    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .main-title-footer {
@@ -85,7 +86,6 @@
 
 .subscribe-footer-panel {
     height: 80px;
-    position: absolute;
     top: 0;
     right: 0;
 
@@ -104,7 +104,7 @@
 .subscribe-label-input {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #fff;
 
@@ -113,7 +113,7 @@
     padding-top: 13px;
     padding-bottom: 13px;
     padding-left: 16px;
-    width: 260px;
+    width: 264px;
     height: 40px;
     resize: none;
     background-color: transparent;
@@ -127,7 +127,7 @@
 .subscribe-label-input::placeholder {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #fff;
 }
@@ -141,7 +141,7 @@
 .subscribe-button {
     background-color: #4d5ae5;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
