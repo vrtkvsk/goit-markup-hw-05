@@ -370,6 +370,65 @@
         </div>
     </footer>
 
+    <div class="modal-overlay">
+        <div class="overlay-modal-box">
+            <button class="overlay-close-button" type="button">
+                <svg class="overlay-close-icon" width="8" height="8">
+                    <use href="./images/icons/overlay/overlay-icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="overlay-title">Leave your contacts and we will call you back</p>
+            <form class="order-form">
+                <div class="client-data">
+                    <ul>
+                        <li class="input-wrapper">
+                            <label for="name-input" class="client-data-label">Name</label>
+                            <div class="icon-position">
+                                <input class="label-input" id="name-input" type="text" name="name" required autofocus>
+                                <svg class="overlay-input-icon" width="18" height="24">
+                                <use href="./images/icons/overlay/overlay-icons.svg#icon-person"></use>
+                                </svg>
+                            </div>
+                        </li>
+                        <li class="input-wrapper">
+                            <label for="tel-input" class="client-data-label">Phone</label>
+                            <div class="icon-position">
+                                <input class="label-input" id="tel-input" type="tel" name="tel" required>
+                                <svg class="overlay-input-icon" width="18" height="24">
+                                <use href="./images/icons/overlay/overlay-icons.svg#icon-phone"></use>
+                                </svg>
+                            </div>
+                        </li>
+                        <li class="input-wrapper">
+                            <label for="email-input" class="client-data-label">Email</label>
+                            <div class="icon-position">
+                                <input class="label-input" id="email-input" type="email" name="email" required>
+                                <svg class="overlay-input-icon" width="18" height="24">
+                                <use href="./images/icons/overlay/overlay-icons.svg#icon-email"></use>
+                                </svg>
+                            </div>
+                        </li>
+                        <li class="input-wrapper">
+                            <label for="tel-input" class="client-data-label">Comment</label>
+                            <textarea class="label-comment-input" id="comment-area" name="comment" placeholder="Text input"></textarea>
+                        </li>
+                        <li class="checkbox-input-wrapper">
+                            <input class="checkbox-button-input sr-only" id="privacy" type="checkbox" name="privacy">
+                            <label for="privacy" class="client-privacy-item">
+                            <span class="custom-checkbox">
+                                <svg class="checkbox-status-icon" width="10" height="8">
+                                <use href="./images/icons/overlay/overlay-icons.svg#icon-check-mark"></use>
+                                </svg>
+                            </span>I accept the terms and conditions of the <a class="privacy-policy" href="">Privacy Policy</a></label>
+                        </li>
+                    </ul>
+                    <button class="send-button" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
 <!-- #endregion FOOTER -->
 </body>
 </html>
